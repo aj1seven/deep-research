@@ -1,16 +1,16 @@
-# 🧠 Deep Research Assistant
+#  Deep Research Assistant
 
 Deep Research Assistant is an AI-powered research automation tool designed to streamline the process of collecting and summarizing information from the web. It utilizes intelligent agents to search the web based on user queries and generates concise summaries optimized for quick understanding and further synthesis.
 
-## 🚀 Features
+##  Features
 
-- 🔍 Web-based search using intelligent agents
-- 📝 Succinct 2–3 paragraph summaries under 300 words
-- 📤 Email delivery of research results using SendGrid
-- ⚙️ Asynchronous execution using Python's asyncio
-- 🔒 Secure API key management using dotenv
+-  Web-based search using intelligent agents
+-  Succinct 2–3 paragraph summaries under 300 words
+-  Email delivery of research results using SendGrid
+-  Asynchronous execution using Python's asyncio
+-  Secure API key management using dotenv
 
-## 📦 Tech Stack
+##  Tech Stack
 
 - **Python**
 - **Pydantic** – for input modeling
@@ -18,7 +18,7 @@ Deep Research Assistant is an AI-powered research automation tool designed to st
 - **dotenv** – for environment configuration
 - **Custom Agent Framework** – handles web search and summarization
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 deep_research/
@@ -27,7 +27,7 @@ deep_research/
 └── deep_research.ipynb    # Main notebook for running the assistant
 ```
 
-## 🛠️ Usage
+##  Usage
 
 1. **Install dependencies** (using `requirements.txt`):
     ```bash
@@ -44,14 +44,14 @@ deep_research/
 3. **Run the notebook**:
     Open `deep_research.ipynb` in Jupyter and follow the instructions inside.
 
-## 📬 Emailing Results
+##  Emailing Results
 
 The assistant can send the summarized results via email using SendGrid. Ensure your SendGrid credentials are correct in the `.env` file, and that the sender email is verified.
 
-## 📄 License
+##  License
 
 MIT License – Feel free to use and modify for personal or professional research workflows.
 
-## ✍️ Author
+##  Author
 
 Cheran C
